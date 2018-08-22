@@ -1,0 +1,1 @@
+This repo contains some basic code found on the book "Functional Programming Simplified (Scala edition)" by Alvin Alexander.
