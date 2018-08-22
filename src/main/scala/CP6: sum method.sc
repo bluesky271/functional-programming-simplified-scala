@@ -17,3 +17,10 @@ def sumTwo(xs: List[Int]): Int = xs match {
 }
 
 sumTwo(List(1, 2, 3, 4))
+
+val list1 = List(1, 2, 3)
+val list2 = List(4, 5, 6)
+
+list1 :: list2 // :: prepends a single item
+
+list1 ::: list2 // ::: prepends a complete list
