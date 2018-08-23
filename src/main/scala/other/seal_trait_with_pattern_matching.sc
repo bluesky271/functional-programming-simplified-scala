@@ -10,7 +10,7 @@ val symbol2: Symbol = Rest("Whole")
 // Since the Symbol type has no members, we can not do anything useful when we manipulate one. We need a way to distinguish between the different cases of symbols. Pattern matching allows us to do so:
 def symbolDuration(symbol: Symbol): String =
   symbol match {
-    case Note(name, duration, octave) => duration
+    case Note(name, duration, octave) => duration // (can also be written as Note(_, duration, _) as the name and octave parameter were not used in the expression
     case Rest(duration) => duration
   }
 
